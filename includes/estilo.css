@@ -14,6 +14,26 @@ body {
 	border: solid 1px #000;
 }
 
+nav > ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+nav > ul li {
+	display: inline-block;
+	padding: 5px 0;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+	color: blue;
+}
+
 td, th {
 	background: #FFC;
 	text-align:center;
@@ -28,6 +48,10 @@ aside, details {
 	float: right;
 	clear: both;
 	background: #fff;
+}
+
+details {
+	cursor: pointer;
 }
 
 details[open]  {
@@ -93,4 +117,3 @@ input[type=number] {
 	float:left;
 	margin: 0 20px;
 }
-

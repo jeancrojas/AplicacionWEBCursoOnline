@@ -96,7 +96,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`usuario`, `clave`) VALUES
-('richart', 'richart');
+('jean', 'jean');
 
 --
 -- Restricciones para tablas volcadas
